@@ -1,0 +1,125 @@
+body{
+    background-color: #25273Fff;
+}
+main>nav>section>h1{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.input-icons{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.952);;
+}
+main>section>form{
+    text-align: center;
+}
+
+main>footer{
+    text-align: center;
+}
+.input-fields[id="1"]{
+    margin-bottom: 1.5rem;
+}
+.input-fields[id="2"]{
+    margin-bottom: 0.5rem;
+    
+}
+
+main>section>form>button{
+    margin-top: 1.5rem;
+    margin-bottom: 4.5rem;
+}
+.input-icons i {
+    position: absolute;
+    padding-top: 0.7rem;
+    padding-left: 1.3rem;
+    color: #fff;
+}
+main>section>form>div>input{
+    border: 1.8px solid  #E83957ff;
+    color: #fff;
+    background-color: #25273Fff;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    height: 2rem;
+    width: 14rem;
+    border-radius: 30px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 14px; font-style: normal;
+     font-variant: normal; 
+     font-weight: 400; 
+    line-height: 20px
+
+}
+input[type="checkbox"]{
+    border-radius: 30px;
+    padding: 2rem;
+    margin-top: 6rem;
+   
+}
+
+main>section>form>label{
+    
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.952);
+    
+}
+main>section>form>span{
+    
+    color: #E83957ff;
+    
+}
+main>section>form>label,span,input[type="checkbox"]{
+    margin-top: 1rem;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+     font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px
+    
+}
+.input-icons placeholder{
+    color: #fff;
+}
+main>section>form>button{
+    background-color: #E83957ff;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2.2rem;
+    width: 18rem;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    margin-top: 2.5rem;
+}
+.icon{
+    margin: 1.5rem 0.5rem;
+    color: rgba(255, 255, 255, 0.952);
+}
+main>footer>span>a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #E83957ff;
+}
+main>footer>span,a{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.952);
+}
+

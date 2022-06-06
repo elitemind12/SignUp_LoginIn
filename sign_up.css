@@ -1,0 +1,100 @@
+body{
+    background-color: #25273Fff;
+}
+section>h1{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+section>form{
+    text-align: center;
+}
+
+section>form>input{
+    border: 1.8px solid  #E83957ff;
+    color: #fff;
+    background-color: #25273Fff;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 30px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+    font-size: 14px; font-style: normal;
+     font-variant: normal; 
+     font-weight: 400; 
+    line-height: 20px
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.952);;
+}
+section>form>input[id="1"]{
+    height: 2rem;
+    width: 7.8rem;
+}
+section>form>input[id="2"]{
+    height: 2rem;
+    width: 7.8rem;
+    margin-left: 0.5rem;
+}
+section>form>input[id="me"]{
+    border: 1px solid #fff;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+     font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px
+}
+section>form>label{
+    color: #fff;
+    margin-top: 0.5rem;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+     font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px
+}
+section>form>label>span{
+    color: #E83957ff;
+   
+}
+section>form>button{
+    background-color: #E83957ff;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2.2rem;
+    width: 19rem;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    margin-top: 1.2rem;
+}
+.footer{
+    text-align: center;
+    margin-top: 6rem;
+}
+.footer a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #E83957ff;
+}
+.footer span,a{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.952);
+}
