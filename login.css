@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #25273Fff;
 }
-main>nav>section>h1{
+
+main>nav>section>h1 {
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 2rem;
@@ -10,42 +11,42 @@ main>nav>section>h1{
     font-weight: 700;
     color: #fff;
 }
-.input-icons{
+
+.input-icons {
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
     color: #fff;
 }
-::placeholder{
-    color: rgba(255, 255, 255, 0.952);;
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.952);
+    ;
 }
-main>section>form{
+
+main>section>form {
     text-align: center;
 }
 
-main>footer{
+main>footer {
     text-align: center;
 }
-.input-fields[id="1"]{
-    margin-bottom: 1.5rem;
-}
-.input-fields[id="2"]{
-    margin-bottom: 0.5rem;
-    
-}
 
-main>section>form>button{
+main>section>form>button {
     margin-top: 1.5rem;
     margin-bottom: 4.5rem;
 }
+
 .input-icons i {
     position: absolute;
     padding-top: 0.7rem;
     padding-left: 1.3rem;
     color: #fff;
+    transition: 1s all;
 }
-main>section>form>div>input{
-    border: 1.8px solid  #E83957ff;
+
+main>section>form>div>input {
+    border: 1.8px solid #E83957ff;
     color: #fff;
     background-color: #25273Fff;
     padding-left: 2.5rem;
@@ -53,45 +54,58 @@ main>section>form>div>input{
     height: 2rem;
     width: 14rem;
     border-radius: 30px;
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
-    font-size: 14px; font-style: normal;
-     font-variant: normal; 
-     font-weight: 400; 
-    line-height: 20px
-
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    transition: 1s all;
 }
-input[type="checkbox"]{
+
+main>section>form>div>input:hover,
+main>section>form>div>input:focus {
+    background-color: rgb(56, 58, 79);
+}
+
+input[type="checkbox"] {
     border-radius: 30px;
     padding: 2rem;
     margin-top: 6rem;
-   
 }
 
-main>section>form>label{
-    
+main>section>form>label {
     margin-right: 1rem;
     color: rgba(255, 255, 255, 0.952);
-    
 }
-main>section>form>span{
-    
+
+main>section>form>span {
     color: #E83957ff;
-    
 }
-main>section>form>label,span,input[type="checkbox"]{
+
+main>section>form>span:hover,
+main>section>form>span:focus {
+    text-decoration: 2px underline;
+    cursor: pointer;
+}
+
+main>section>form>label,
+span,
+input[type="checkbox"] {
     margin-top: 1rem;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-     font-size: 16px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     line-height: 20px
-    
 }
-.input-icons placeholder{
+
+.input-icons placeholder {
     color: #fff;
 }
-main>section>form>button{
+
+main>section>form>button {
     background-color: #E83957ff;
     color: #fff;
     padding-left: 2rem;
@@ -103,23 +117,82 @@ main>section>form>button{
     font-size: 16px;
     border: 0px;
     margin-top: 2.5rem;
+    transition: 1s all;
 }
-.icon{
+
+main>section>form>button:hover,
+main>section>form>button:focus {
+    background-color: #fff;
+    border: 1px solid #E83957ff;
+    color: #E83957ff;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.icon {
     margin: 1.5rem 0.5rem;
     color: rgba(255, 255, 255, 0.952);
+    transition: 1s all;
 }
-main>footer>span>a{
+
+.icon:hover,
+.icon:focus {
+    color: #E83957ff;
+}
+
+main>footer>span>a {
     margin-left: 1rem;
     text-decoration: none;
     color: #E83957ff;
 }
-main>footer>span,a{
+
+main>footer>span>a:hover,
+main>footer>span>a:focus {
+    text-decoration: 2px underline;
+    cursor: pointer;
+}
+
+main>footer>span,
+a {
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.952);
 }
 
+#errorPass {
+    display: block;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+#errorUser {
+    display: block;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+@media (max-width: 420px) {
+    main>section>form>div>input {
+        height: 2rem;
+        width: 11rem;
+    }
+
+    main>section>form>button {
+        height: 2.2rem;
+        width: 15rem;
+    }
+
+    main>section>form>label,
+    span,
+    input[type="checkbox"] {
+        font-size: 14px;
+    }
+}
