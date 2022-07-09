@@ -111,6 +111,27 @@ section>form>button:focus {
     font-weight: 800;
 }
 
+.input {
+    margin-bottom: 0;
+}
+
+.error {
+    margin: 0;
+    display: block;
+}
+
+.danger {
+    color: #E83957ff;
+    margin: 0;
+    display: block;
+}
+
+.success {
+    color: green;
+    margin: 0;
+    display: block;
+}
+
 .footer {
     text-align: center;
     margin-top: 4rem;
