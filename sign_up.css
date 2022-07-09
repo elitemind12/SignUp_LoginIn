@@ -20,7 +20,7 @@ section>form>input {
     border: 1.8px solid #E83957ff;
     color: #fff;
     background-color: #25273Fff;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     padding-left: 1rem;
     height: 2rem;
     width: 18rem;
@@ -46,12 +46,14 @@ section>form>input:focus {
 section>form>input[id="1"] {
     height: 2rem;
     width: 7.8rem;
+    margin-bottom: 1.2rem;
 }
 
 section>form>input[id="2"] {
     height: 2rem;
     width: 7.8rem;
     margin-left: 0.5rem;
+    margin-bottom: 1.2rem;
 }
 
 section>form>input[id="me"] {
@@ -110,25 +112,20 @@ section>form>button:focus {
     font-size: 16px;
     font-weight: 800;
 }
-
-.input {
-    margin-bottom: 0;
-}
-
-.error {
-    margin: 0;
+#errorEmail, #errorPass, #errorConfirm {
     display: block;
 }
 
+
 .danger {
     color: #E83957ff;
-    margin: 0;
+    margin-top: 0.5em;
     display: block;
 }
 
 .success {
     color: green;
-    margin: 0;
+    margin-top: 0.5em;
     display: block;
 }
 

@@ -6,7 +6,6 @@ Email.addEventListener('input', (e) => {
     const EmailValue = Email.value;
     const emailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     const emailSpan = document.getElementById('errorEmail');
-    emailSpan.classList.add('error');
 
     if (EmailValue.match(emailFormat)) {
         emailSpan.innerText = 'Valid Email Address';
